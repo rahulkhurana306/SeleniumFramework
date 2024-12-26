@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="RKProject.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="ErrorValTest(failed)">
+    <classes>
+      <class name="RKProject.Tests.Lect167_ErrorValTest">
+        <methods>
+          <include name="LoginErrorValidation"/>
+          <include name="TearDown"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- RKProject.Tests.Lect167_ErrorValTest -->
+    </classes>
+  </test> <!-- ErrorValTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

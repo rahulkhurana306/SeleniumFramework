@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="RKProject.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="SubmitOrderTest(failed)" verbose="0">
+    <classes>
+      <class name="RKProject.Tests.Lect158_SubmitOrderTest">
+        <methods>
+          <include name="SubmitOrder" invocation-numbers="0"/>
+          <include name="TearDown"/>
+          <include name="OrderHistoryTest"/>
+          <include name="LaunchApplication"/>
+        </methods>
+      </class> <!-- RKProject.Tests.Lect158_SubmitOrderTest -->
+    </classes>
+  </test> <!-- SubmitOrderTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
